@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>inscription</title>
+</head>
+<body>
+<h1 align="center">inscription en licence</h1>
+<form align="center" action="validation.html">
+  <fieldset align="center">
+    <legend>Informations personnelles</legend>
+    <label>Votre Nom</label> <input name="votre Nom" type="text" placeholder="votre nom?"><br><br>
+    <label>Votre prenom</label> <input name="votre prenom" type="text" placeholder="votre prenom?"><br><br>
+    <label>Votre age </label><input name="votre age" type="number" placeholder="votre age?"><br><br>
+    <label>Votre date de naissance</label><input name="date de naissance" type="date"><br><br>
+    <label>Votre adresse </label><textarea name="nom" placeholder="Votre adresse?" ></textarea><br><br>
+    <label>Mot de passe</label> <input name="Mot de passe" type="password" required><br><br>
+    <label>Repetez mot de passe</label> <input name="repetez mot de passe" type="password" required><br><br>
+    <label>Votre email </label><input name="votre email" type="text" placeholder="votre email?"><br><br>
+    <label>Votre site web </label><input name="votre site web" type="text" placeholder="votre site web?"><br><br>
+  </fieldset>
+  <fieldset align="center">
+    <legend>Gestion des groupes et des options</legend>
+    <label>Votre groupe:</label>
+    <input type="radio" name="groupe" id=Groupe1" value="Groupe1">Groupe1
+    <input type="radio" name="groupe" id=Groupe2" value="Groupe2">Groupe2
+    <input type="radio" name="groupe" id=Groupe3" value="Groupe3">Groupe3
+    <br><br>
+    <label>Numero de carte d'etudiant </label><input name="num carte etudiant" type="text" placeholder="Numero de carte d'etudiant?"><br><br>
+  <label>Choissisez les options que vous désirez</label><select name="option" size="5">
+    <option value="j2ee">j2ee</option>
+    <option value="android">Android</option>
+    <option value=".Net">.Net</option>
+    <option value="HTML5">HTML5</option>
+    <option value="Flex">Flex</option>
+  </select><br><br>
+    <input size="4" pattern="[I][N][S][A][T][0-9]{4}" name="antipirate">
+    <input type="checkbox" checked>
+
+  </fieldset>
+  <input type="submit" value="valider"> <input type="reset" value="réinitialiser">
+
+</form>
+</body>
+</html>
